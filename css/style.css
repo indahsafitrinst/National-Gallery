@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+}
+
+
+/* Banner */
+.banner {
+    height: 75vh;
+    border: 1px solid;
+    background-image: url('../gambar/collection.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery {
+    margin: 50px;
+    border: 0px solid #ccc;
+    float: left;
+    width: 490px;
+}
+.gallery2 {
+    border: 0px solid #ccc;
+    float: left;
+    width: 380px;
+    margin: 40px;
+    margin-left: auto;
+    margin-right: 10px;
+    justify-content: space-between;
+}
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+.desc {
+    margin: 5px;
+    padding-bottom: 15px;
+    text-align: left;
+}
+.desc a {
+    color: rgb(19, 15, 15);
+    text-decoration: none;
+}
+.desc a:hover {
+    color: rgb(126, 106, 106);
+}
+
+/* Footer */
+.container2 {
+    max-width: 1170px;
+    margin: auto;
+    box-sizing: border-box;
+}
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer {
+    background-color: black;
+    padding: 70px 0;
+}
+.footer ul {
+    list-style: none;
+}
+.footer col {
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.footer-col li{
+    font-size:15px;
+    color:cornsilk;
+    margin-left: -50px;
+    margin-right: 60px;
+}
+.footer-col img {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 380px;
+    height: 230px;
+}
